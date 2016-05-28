@@ -1,4 +1,4 @@
 author = Saikoureality
 version = 0.1
 displayName = Extra Recipes
-hideCode = True
+hideCode = true
