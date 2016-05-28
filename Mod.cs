@@ -1,4 +1,8 @@
+using System;
+using Terraria;
 using Terraria.ID;
+using Terraria.Graphics.Effects;
+using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 
 public static class TrapRecipes
