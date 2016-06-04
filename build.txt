@@ -1,4 +1,4 @@
 author = Saikoureality
-version = 0.1
+version = 0.1.0
 displayName = Mechanic’s Paradise
 hideCode = true
