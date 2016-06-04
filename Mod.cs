@@ -76,7 +76,69 @@ public static class Recipes
         recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.SpearTrap, 1);
         recipe.AddRecipe();
-        }
+        
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 50);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.GreaterHealingPotion, 10);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.HeartStatue, 1);
+        recipe.AddRecipe();
+        
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 50);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.GreaterManaPotion, 10);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.StarStatue, 1);
+        recipe.AddRecipe();
+        
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.BloodZombieStatue, 1);
+        recipe.AddRecipe();
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.DripplerStatue, 1);
+        recipe.AddRecipe();
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.GladiatorStatue, 1);
+        recipe.AddRecipe();
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.VikingStatue, 1);
+        recipe.AddRecipe();
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.HarpyStatue, 1);
+        recipe.AddRecipe();
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.UnicornHorn, 3);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.UnicornStatue, 1);
+        recipe.AddRecipe();
+        recipe = new ModRecipe (this);
+        recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
+        recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.KeyOfLight, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.KeyOfNight, 1);
+        recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
+        recipe.SetResult(Terraria.ID.ItemID.ChestStatue, 1);
+        recipe.AddRecipe();
+            }
     
 
 
@@ -160,6 +222,29 @@ public static void EquipRecipes (Mod this)
     recipe = new ModRecipe (this);
     recipe.AddIngredient(Terraria.ID.ItemID.SummonerEmblem, 1);
     recipe.SetResult(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.AddRecipe();
+    
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 500);
+    recipe.AddIngredient(Terraria.ID.ItemID.Daybloom, 40);
+    recipe.AddIngredient(Terraria.ID.ItemID.SoulOfLight, 30);
+    recipe.AddTile(Terraria.ID.ItemID.LizahrdFurnace);
+    recipe.SetResult(Terraria.ID.ItemID.SunStone, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 500);
+    recipe.AddIngredient(Terraria.ID.ItemID.Moonglow, 40);
+    recipe.AddIngredient(Terraria.ID.ItemID.SoulOfNight, 30);
+    recipe.AddTile(Terraria.ID.ItemID.LizahrdFurnace);
+    recipe.SetResult(Terraria.ID.ItemID.MoonStone, 1);
+    recipe.AddRecipe();
+    
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.HeartreachPotion, 5);
+    recipe.AddIngredient(Terraria.ID.ItemID.LuckyHorseshoe, 1);
+    recipe.AddIngredient(Terraria.ID.ItemID.ManaCrystal, 2);
+    recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
+    recipe.SetResult(Terraria.ID.ItemID.CelestialMagnet, 1);
     recipe.AddRecipe();
     }
     
