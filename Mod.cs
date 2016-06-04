@@ -5,9 +5,9 @@ using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 
-public static class TrapRecipes
+public static class Recipes
 {
-    public static void Trap Recipes (Mod this)
+    public static void TrapRecipes (Mod this)
     {
         
 
@@ -112,5 +112,78 @@ public static void EquipRecipes (Mod this)
     recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
     recipe.SetResult(Terraria.ID.ItemID.HoneyComb, 1);
     recipe.AddRecipe();
+    
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.WarriorEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.RangerEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.WarriorEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.WarriorEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.SummonerEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.RangerEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.WarriorEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.RangerEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.RangerEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.SummonerEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.WarriorEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.RangerEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.SummonerEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.SummonerEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.WarriorEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.SummonerEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.RangerEmblem, 1);
+    recipe.AddRecipe();
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.SummonerEmblem, 1);
+    recipe.SetResult(Terraria.ID.ItemID.SorcererEmblem, 1);
+    recipe.AddRecipe();
     }
+    
+    public static void Souls (Mod this)
+    {
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.PixieDust, 50);
+    recipe.AddIngredient(Terraria.ID.ItemID.UnicornHorn, 5);
+    recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+    recipe.SetResult(Terraria.ID.ItemID.SoulOfLight, 10);
+    recipe.AddRecipe();
+    
+    recipe = new ModRecipe (this);
+    recipe.AddIngredient(Terraria.ID.ItemID.RottenChunk, 50);
+    recipe.AddIngredient(Terraria.ID.ItemID.CursedFlame, 5);
+    recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+    recipe.SetResult(Terraria.ID.ItemID.SoulOfNight, 10);
+    recipe.AddRecipe();
+    
+    recipe = new ModRecipe (this);
+    recipe.AddIgnredient(Terraria.ID.ItemID.Vertebrae, 50);
+    recipe.AddIngredient(Terraria.ID.ItemID.Ichor, 5);
+    recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+    recipe.SetResult(Terraria.ID.ItemID.SoulOfNight, 10);
+    recipe.AddRecipe();
+        }
     }
