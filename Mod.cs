@@ -153,13 +153,13 @@ public static void EquipRecipes (Mod mod)
     recipe.SetResult(Terraria.ID.ItemID.BandofStarpower, 1);
     recipe.AddRecipe();
     
-    recipe = new ModRecipe (mod);
-    recipe.AddIngredient(Terraria.ID.ItemID.Actuator, 15);
-    recipe.AddIngredient(Terraria.ID.ItemID.Wire, 5);
-    recipe.AddIngredient(Terraria.ID.ItemID.MechanicalLens, 1);
-    recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
-    recipe.SetResult(Terraria.ID.ItemID.Presserator, 1);
-    recipe.AddRecipe();
+    //recipe = new ModRecipe (mod);
+    //recipe.AddIngredient(Terraria.ID.ItemID.Actuator, 15);
+    //recipe.AddIngredient(Terraria.ID.ItemID.Wire, 5);
+    //recipe.AddIngredient(Terraria.ID.ItemID.MechanicalLens, 1);
+    //recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
+    //recipe.SetResult(Terraria.ID.ItemID.Presserator, 1);
+    //recipe.AddRecipe();    Commented out until I can work out a way to make Presserator work
     
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.BandofRegeneration, 1);
