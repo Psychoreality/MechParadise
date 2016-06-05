@@ -14,9 +14,9 @@ namespace MechParadise
             Properties = new ModProperties()
             {
                 Autoload = true
-                }
-            }
-        }
+                };
+            };
+        };
 
 public static class Recipes (Mod mod)
 {
@@ -143,7 +143,7 @@ public static class Recipes (Mod mod)
         recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
         recipe.SetResult(Terraria.ID.ItemID.UnicornStatue, 1);
         recipe.AddRecipe();
-        }
+        };
         //recipe = new ModRecipe (mod);
         //recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
         //recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
@@ -260,7 +260,7 @@ public static class Recipes (Mod mod)
     recipe.AddTile(Terraria.ID.ItemID.IronAnvil);
     recipe.SetResult(Terraria.ID.ItemID.CelestialMagnet, 1);
     recipe.AddRecipe();
-    }
+    };
     
         public static void Souls (Mod mod)
         {
@@ -284,6 +284,6 @@ public static class Recipes (Mod mod)
     recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
     recipe.SetResult(Terraria.ID.ItemID.SoulofNight, 10);
     recipe.AddRecipe();
-        }
-    }
+        };
+    };
     }
