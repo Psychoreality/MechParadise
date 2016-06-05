@@ -130,20 +130,21 @@ public static class Recipes (Mod mod)
         recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
         recipe.SetResult(Terraria.ID.ItemID.UnicornStatue, 1);
         recipe.AddRecipe();
+        }
         //recipe = new ModRecipe (mod);
         //recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
         //recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
-       // recipe.AddIngredient(Terraria.ID.ItemID.KeyofLight, 1);
+        //recipe.AddIngredient(Terraria.ID.ItemID.KeyofLight, 1);
         //recipe.AddIngredient(Terraria.ID.ItemID.KeyofNight, 1);
         //recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
         //recipe.SetResult(Terraria.ID.ItemID.ChestStatue, 1);
         //recipe.AddRecipe(); Keys of Light/Night not working
-            }
+            
     
 
 
-public static void EquipRecipes (Mod mod)
-{
+        public static void EquipRecipes (Mod mod)
+        {
     ModRecipe recipe;
     
     recipe = new ModRecipe (mod);
@@ -248,8 +249,8 @@ public static void EquipRecipes (Mod mod)
     recipe.AddRecipe();
     }
     
-    public static void Souls (Mod mod)
-    {
+        public static void Souls (Mod mod)
+        {
     ModRecipe recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.PixieDust, 50);
     recipe.AddIngredient(Terraria.ID.ItemID.UnicornHorn, 5);
