@@ -5,7 +5,7 @@ using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 
-public static class Recipes
+public static class Recipes (Mod mod)
 {
     public static void TrapRecipes (Mod mod)
     {
