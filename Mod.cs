@@ -5,6 +5,19 @@ using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 
+namespace MechParadise
+{
+    public class MechParadise : Mod
+    {
+        public MechParadise()
+        {
+            Properties = new ModProperties()
+            {
+                Autoload = true
+                }
+            }
+        }
+
 public static class Recipes (Mod mod)
 {
     public static void TrapRecipes (Mod mod)
@@ -272,4 +285,5 @@ public static class Recipes (Mod mod)
     recipe.SetResult(Terraria.ID.ItemID.SoulofNight, 10);
     recipe.AddRecipe();
         }
+    }
     }
