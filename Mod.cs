@@ -17,63 +17,63 @@ public static class Recipes
         recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 30);
         recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
         recipe.AddIngredient(Terraria.ID.ItemID.ThrowingKnife, 50);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.DartTrap, 1);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.CopperBar, 5);
         recipe.AddIngredient(Terraria.ID.ItemID.Gel, 50);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.Wire, 10);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.TinBar, 5);
         recipe.AddIngredient(Terraria.ID.ItemID.Gel, 50);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.Wire, 10);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.DartTrap, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.LizahrdBrick, 20);
-        recipe.AddIngredient(Terraria.ID.ItemID.VialOfVenom, 1);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddIngredient(Terraria.ID.ItemID.LihzahrdBrick, 20);
+        recipe.AddIngredient(Terraria.ID.ItemID.VialofVenom, 1);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.SuperDartTrap, 1);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.DartTrap, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.LizahrdBrick, 20);
+        recipe.AddIngredient(Terraria.ID.ItemID.LihzahrdBrick, 20);
         recipe.AddIngredient(Terraria.ID.ItemID.Gel, 200);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.FlameTrap, 1);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.LizahrdBrick, 30);
+        recipe.AddIngredient(Terraria.ID.ItemID.LihzahrdBrick, 30);
         recipe.AddIngredient(Terraria.ID.ItemID.SpikyBall, 200);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.SpikyBallTrap, 1);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.LizahrdBrick, 30);
+        recipe.AddIngredient(Terraria.ID.ItemID.LihzahrdBrick, 30);
         recipe.AddIngredient(Terraria.ID.ItemID.Spike, 1);
         recipe.AddIngredient(Terraria.ID.ItemID.IronBar, 5);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.SpearTrap, 1);
         recipe.AddRecipe();
 
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.LizahrdBrick, 30);
+        recipe.AddIngredient(Terraria.ID.ItemID.LihzahrdBrick, 30);
         recipe.AddIngredient(Terraria.ID.ItemID.Spike, 1);
         recipe.AddIngredient(Terraria.ID.ItemID.LeadBar, 5);
-        recipe.AddTile(Terraria.ID.TileID.TinkerersWorkshop);
+        recipe.AddTile(Terraria.ID.TileID.Tinkerer'sWorkshop);
         recipe.SetResult(Terraria.ID.ItemID.SpearTrap, 1);
         recipe.AddRecipe();
         
@@ -133,8 +133,8 @@ public static class Recipes
         recipe = new ModRecipe (mod);
         recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 100);
         recipe.AddIngredient(Terraria.ID.ItemID.Wire, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.KeyOfLight, 1);
-        recipe.AddIngredient(Terraria.ID.ItemID.KeyOfNight, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.KeyofLight, 1);
+        recipe.AddIngredient(Terraria.ID.ItemID.KeyofNight, 1);
         recipe.AddTile(Terraria.ID.ItemID.HeavyWorkBench);
         recipe.SetResult(Terraria.ID.ItemID.ChestStatue, 1);
         recipe.AddRecipe();
@@ -147,31 +147,31 @@ public static void EquipRecipes (Mod mod)
     ModRecipe recipe;
     
     recipe = new ModRecipe (mod);
-    recipe.AddIngredient(Terraria.ID.ItemID.BandOfRegeneration, 1);
+    recipe.AddIngredient(Terraria.ID.ItemID.BandofRegeneration, 1);
     recipe.AddIngredient(Terraria.ID.ItemID.ManaCrystal, 1);
-    recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
-    recipe.SetResult(Terraria.ID.ItemID.BandOfStarpower, 1);
+    recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
+    recipe.SetResult(Terraria.ID.ItemID.BandofStarpower, 1);
     recipe.AddRecipe();
     
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.Actuator, 15);
     recipe.AddIngredient(Terraria.ID.ItemID.Wire, 5);
     recipe.AddIngredient(Terraria.ID.ItemID.MechanicalLens, 1);
-    recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
+    recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
     recipe.SetResult(Terraria.ID.ItemID.Presserator, 1);
     recipe.AddRecipe();
     
     recipe = new ModRecipe (mod);
-    recipe.AddIngredient(Terraria.ID.ItemID.BandOfRegeneration, 1);
+    recipe.AddIngredient(Terraria.ID.ItemID.BandofRegeneration, 1);
     recipe.AddIngredient(Terraria.ID.ItemID.LifeCrystal, 1);
-    recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
+    recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
     recipe.SetResult(Terraria.ID.ItemID.PanicNecklace, 1);
     recipe.AddRecipe();
     
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.BottledHoney, 10);
     recipe.AddIngredient(Terraria.ID.ItemID.BeeWax, 3);
-    recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
+    recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
     recipe.SetResult(Terraria.ID.ItemID.HoneyComb, 1);
     recipe.AddRecipe();
     
@@ -227,15 +227,15 @@ public static void EquipRecipes (Mod mod)
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 500);
     recipe.AddIngredient(Terraria.ID.ItemID.Daybloom, 40);
-    recipe.AddIngredient(Terraria.ID.ItemID.SoulOfLight, 30);
-    recipe.AddTile(Terraria.ID.ItemID.LizahrdFurnace);
+    recipe.AddIngredient(Terraria.ID.ItemID.SoulofLight, 30);
+    recipe.AddTile(Terraria.ID.ItemID.LihzahrdFurnace);
     recipe.SetResult(Terraria.ID.ItemID.SunStone, 1);
     recipe.AddRecipe();
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.StoneBlock, 500);
     recipe.AddIngredient(Terraria.ID.ItemID.Moonglow, 40);
-    recipe.AddIngredient(Terraria.ID.ItemID.SoulOfNight, 30);
-    recipe.AddTile(Terraria.ID.ItemID.LizahrdFurnace);
+    recipe.AddIngredient(Terraria.ID.ItemID.SoulofNight, 30);
+    recipe.AddTile(Terraria.ID.ItemID.LihzahrdFurnace);
     recipe.SetResult(Terraria.ID.ItemID.MoonStone, 1);
     recipe.AddRecipe();
     
@@ -243,32 +243,32 @@ public static void EquipRecipes (Mod mod)
     recipe.AddIngredient(Terraria.ID.ItemID.HeartreachPotion, 5);
     recipe.AddIngredient(Terraria.ID.ItemID.LuckyHorseshoe, 1);
     recipe.AddIngredient(Terraria.ID.ItemID.ManaCrystal, 2);
-    recipe.AddTile(Terraria.ID.ItemID.TinkerersWorkshop);
+    recipe.AddTile(Terraria.ID.ItemID.Tinkerer'sWorkshop);
     recipe.SetResult(Terraria.ID.ItemID.CelestialMagnet, 1);
     recipe.AddRecipe();
     }
     
     public static void Souls (Mod mod)
     {
-    recipe = new ModRecipe (mod);
+    ModRecipe recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.PixieDust, 50);
     recipe.AddIngredient(Terraria.ID.ItemID.UnicornHorn, 5);
     recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
-    recipe.SetResult(Terraria.ID.ItemID.SoulOfLight, 10);
+    recipe.SetResult(Terraria.ID.ItemID.SoulofLight, 10);
     recipe.AddRecipe();
     
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.RottenChunk, 50);
     recipe.AddIngredient(Terraria.ID.ItemID.CursedFlame, 5);
     recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
-    recipe.SetResult(Terraria.ID.ItemID.SoulOfNight, 10);
+    recipe.SetResult(Terraria.ID.ItemID.SoulofNight, 10);
     recipe.AddRecipe();
     
     recipe = new ModRecipe (mod);
     recipe.AddIgnredient(Terraria.ID.ItemID.Vertebrae, 50);
     recipe.AddIngredient(Terraria.ID.ItemID.Ichor, 5);
     recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
-    recipe.SetResult(Terraria.ID.ItemID.SoulOfNight, 10);
+    recipe.SetResult(Terraria.ID.ItemID.SoulofNight, 10);
     recipe.AddRecipe();
         }
     }
