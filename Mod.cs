@@ -18,7 +18,7 @@ namespace MechParadise
             };
         };
 
-public static class Recipes (Mod mod)
+public static class Recipes
 {
     public static void TrapRecipes (Mod mod)
     {
