@@ -327,8 +327,8 @@ public static class Recipes
             item.height = 20;
             item.maxStack = 99;
             AddTooltip("'The secret to the power of the goblins'");
-            item.value = 300;
-            item.rarity = 5;
+            item.value = 2000;
+            item.rarity = 4;
             };
             
             public override void AddRecipes()
@@ -351,4 +351,42 @@ public static class Recipes
                 };
             };
             
+    public static class FoolsGold : ModItem
+    {
+        public override void SetDefaults()
+        {
+            item.name = "Fool's Gold";
+            item.width = 20
+            item.height = 20
+            item.maxStack = 99;
+            AddTooltip("'A warped plate of metal stolen by pirates'");
+            item.value = 2000;
+            item.rarity = 4;
+            };
+            
+            public override void AddRecipes()
+            {
+                ModRecipe recipe = new ModRecipe(mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.PirateStaff, 1);
+                recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                recipe = new ModRecipe (mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.LuckyCoin, 1);
+                recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                recipe = new ModRecipe (mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.GoldRing, 1);
+                recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                recipe = new ModRecipe (mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.DiscountCard, 1);
+                recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                };
+                
+        };
     }
