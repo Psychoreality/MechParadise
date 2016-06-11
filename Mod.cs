@@ -4,8 +4,12 @@ using Terraria.ID;
 using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
+using System.Collections.Generic;
+using System.Linq;
+using System.IO;
 
-namespace MechParadise
+namespace TerrariaQuickRecipes-Mod
 {
     public class MechParadise : Mod
     {
@@ -285,5 +289,66 @@ public static class Recipes
     recipe.SetResult(Terraria.ID.ItemID.SoulofNight, 10);
     recipe.AddRecipe();
         };
+        
+        public static void FishingWeapons (Mod mod)
+        {
+            ModRecipe recipe = new ModRecipe (mod);
+            recipe.AddIngredient(Terraria.ID.ItemID.PrincessFish, 20);
+            recipe.AddIngredient(Terraria.ID.ItemID.CrystalShard, 15);
+            recipe.AddIngredient(Terraria.ID.ItemID.SoulofLight, 10);
+            recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+            recipe.SetResult(Terraria.ID.ItemID.CrystalSerpent, 1);
+            recipe.AddRecipe();
+            
+            recipe = new ModRecipe (mod);
+            recipe.AddIngredient(Terraria.ID.ItemID.Ebonkoi, 20);
+            recipe.AddIngredient(Terraria.ID.ItemID.SpiderFang, 15);
+            recipe.AddIngredient(Terraria.ID.ItemID.SoulofNight, 10);
+            recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+            recipe.SetResult(Terraria.ID.ItemID.Toxikarp, 1);
+            recipe.AddRecipe();
+            
+            recipe = new ModRecipe (mod);
+            recipe.AddIngredient(Terraria.ID.ItemID.Hemopirahnna, 20);
+            recipe.AddIngredient(Terraria.ID.ItemID.Ichor, 15);
+            recipe.AddIngredient(Terraria.ID.ItemID.SoulofNight, 10);
+            recipe.AddTile(Terraria.ID.ItemID.MythrilAnvil);
+            recipe.SetResult(Terraria.ID.ItemID.Bladetongue, 1);
+            };
+            
     };
+    
+    public static class Shadowflame : ModItem
+    {
+        public override void SetDefaults()
+        {
+            item.name = "Shadowflame";
+            item.width = 20;
+            item.height = 20;
+            item.maxStack = 99;
+            AddTooltip("'The secret to the power of the goblins'");
+            item.value = 300;
+            item.rarity = 5;
+            };
+            
+            public override void AddRecipes()
+            {
+                ModRecipe recipe = new ModRecipe (mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameHexDoll, 1);
+                recipe.AddTile(Terraria.ID.ItemID.CrystalBall);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                recipe = new ModRecipe (mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameKnife, 1);
+                recipe.AddTile(Terraria.ID.ItemID.CrystalBall);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                recipe = new ModRecipe (mod);
+                recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameBow, 1);
+                recipe.AddTile(Terraria.ID.ItemID.CrystalBall);
+                recipe.SetResult(this, 20);
+                recipe.AddRecipe();
+                };
+            };
+            
     }
