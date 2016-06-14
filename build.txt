@@ -1,4 +1,4 @@
 author = Saikoureality
-version = 0.1.0
-displayName = Mechanic’s Paradise
+version = 0.1.1
+displayName = Terraria Quick Recipes
 hideCode = true
