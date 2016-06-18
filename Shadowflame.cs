@@ -20,17 +20,17 @@ namespace TerrariaQuickRecipes-Mod
             {
                 ModRecipe recipe = new ModRecipe (mod);
                 recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameHexDoll, 1);
-                recipe.AddTile(Terraria.ID.ItemID.CrystalBall);
+                recipe.AddTile(Terraria.ID.TileID.CrystalBall);
                 recipe.SetResult(this, 20);
                 recipe.AddRecipe();
                 recipe = new ModRecipe (mod);
                 recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameKnife, 1);
-                recipe.AddTile(Terraria.ID.ItemID.CrystalBall);
+                recipe.AddTile(Terraria.ID.TileID.CrystalBall);
                 recipe.SetResult(this, 20);
                 recipe.AddRecipe();
                 recipe = new ModRecipe (mod);
                 recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameBow, 1);
-                recipe.AddTile(Terraria.ID.ItemID.CrystalBall);
+                recipe.AddTile(Terraria.ID.TileID.CrystalBall);
                 recipe.SetResult(this, 20);
                 recipe.AddRecipe();
                 };

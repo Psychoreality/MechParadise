@@ -28,8 +28,9 @@ namespace TerrariaQuickRecipes-Mod
         {
             ModRecipe recipe = new ModRecipe();
             recipe.AddIngredient(ItemID.Furnace, 1);
-            recipe.AddRecipeGroup(GoldBar, 20);
-            recipe.AddTile(ItemID.IronAnvil);
+            recipe.AddIngredient(ItemID.GoldBar, 20);
+            recipe.anyGoldBar = true;
+            recipe.AddTile(TileID.IronAnvil);
             recipe.SetResult(this, 1);
             recipe.AddRecipe();
             };
