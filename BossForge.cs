@@ -21,7 +21,7 @@ namespace TerrariaQuickRecipes-Mod
             item.consumable = true;
             item.createTile = mod.TileType("BossForge");
             item.value = 1000;
-            item.rarity = 2;
+            item.rarity = 1;
             };
             
         public override void AddRecipes()

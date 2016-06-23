@@ -24,7 +24,7 @@ namespace TerrariaQuickRecipes-Mod
 
 public static class Recipes
 {
-    public static void AddRecipes()
+    public override void AddRecipes()
     {
         
 
@@ -156,7 +156,7 @@ public static class Recipes
         //recipe.SetResult(Terraria.ID.ItemID.ChestStatue, 1);
         //recipe.AddRecipe(); Keys of Light/Night not working
     
-    ModRecipe recipe;
+    
     
     recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.BandofRegeneration, 1);
@@ -259,7 +259,7 @@ public static class Recipes
     recipe.SetResult(Terraria.ID.ItemID.CelestialMagnet, 1);
     recipe.AddRecipe();
   
-    ModRecipe recipe = new ModRecipe (mod);
+    recipe = new ModRecipe (mod);
     recipe.AddIngredient(Terraria.ID.ItemID.PixieDust, 50);
     recipe.AddIngredient(Terraria.ID.ItemID.UnicornHorn, 5);
     recipe.AddTile(Terraria.ID.TileID.MythrilAnvil);
@@ -280,7 +280,7 @@ public static class Recipes
     recipe.SetResult(Terraria.ID.ItemID.SoulofNight, 10);
     recipe.AddRecipe();
   
-            ModRecipe recipe = new ModRecipe (mod);
+            recipe = new ModRecipe (mod);
             recipe.AddIngredient(Terraria.ID.ItemID.PrincessFish, 20);
             recipe.AddIngredient(Terraria.ID.ItemID.CrystalShard, 15);
             recipe.AddIngredient(Terraria.ID.ItemID.SoulofLight, 10);
@@ -306,5 +306,36 @@ public static class Recipes
             
     };
     
+    public static class BossForgeRecipes
+    {
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient("Shadowflame", 30);
+            recipe.AddIngredient(ItemID.Silk, 10);
+            recipe.AddTile(null, "Ultimate Loot Reconstructor");
+            recipe.SetResult(ItemID.ShadowflameHexDoll, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient("Shadowflame", 30);
+            recipe.AddIngredient(ItemID.ThrowingKnife, 50);
+            recipe.AddTile(null, "Ultimate Loot Reconstructor");
+            recipe.SetResult(ItemID.ShadowflameKnife, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient("Shadowflame", 30);
+            recipe.AddIngredient(ItemID.MoltenFury, 1);
+            recipe.AddTile(null, "Ultimate Loot Reconstructor");
+            recipe.SetResult(ItemID.ShadowflameBow, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient("Fool's Gold", 25);
+            recipe.AddIngredient(ItemID.ObsidianSkull, 1);
+            recipe.AddTile(null, "Ultimate Loot Reconstructor");
+            recipe.SetResult(ItemID.PirateStaff, 1);
+            recipe.AddRecipe();
+            };
+        };
+        
 }
 
