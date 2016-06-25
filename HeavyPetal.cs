@@ -52,3 +52,6 @@ namespace TerrariaQuickRecipes-Mod;
             recipe.AddTile(null, "Ultimate Loot Reconstructor");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+            };
+        };
+    }
