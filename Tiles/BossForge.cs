@@ -17,7 +17,7 @@ namespace TerrariaQuickRecipes-Mod.Tiles
 			TileObjectData.addTile(Type);
 			AddMapEntry(new Color(200, 200, 200), "Ultimate Loot Reconstructor");
 			disableSmartCursor = true;
-			adjTiles = new int[]{ null, "Ultimate Loot Reconstrcutor" };
+			adjTiles = new int[]{ TileID.Workbenches };
 		}
             public override void NumDust(int i, int j, bool fail, ref int num)
 		{
