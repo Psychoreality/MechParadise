@@ -11,7 +11,7 @@ namespace TerrariaQuickRecipes-Mod;
             item.height = 20;
             item.width = 20;
             item.maxStack = 99;
-            AddTooltip("'Smells like teen cologne'");
+            AddTooltip("'Smells like teen perfume'");
             item.value = 2000;
             item.rarity = 6;
             };
