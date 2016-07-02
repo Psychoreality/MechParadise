@@ -19,7 +19,7 @@ namespace TerrariaQuickRecipes-Mod
             item.useTime = 10;
             item.useStyle = 1;
             item.consumable = true;
-            item.createTile = mod.TileType(null, "Ultimate Loot Reconstructor");
+            item.createTile = mod.TileType("BossForge");
             item.value = 1000;
             item.rarity = 1;
             };

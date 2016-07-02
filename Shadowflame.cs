@@ -20,17 +20,17 @@ namespace TerrariaQuickRecipes-Mod
             {
                 ModRecipe recipe = new ModRecipe (mod);
                 recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameHexDoll, 1);
-                recipe.AddTile(null, "Ultimate Loot Reconstructor");
+                recipe.AddTile(null, "BossForge");
                 recipe.SetResult(this, 20);
                 recipe.AddRecipe();
                 recipe = new ModRecipe (mod);
                 recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameKnife, 1);
-                recipe.AddTile(null, "Ultimate Loot Reconstructor");
+                recipe.AddTile(null, "BossForge");
                 recipe.SetResult(this, 20);
                 recipe.AddRecipe();
                 recipe = new ModRecipe (mod);
                 recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameBow, 1);
-                recipe.AddTile(null, "Ultimate Loot Reconstructor");
+                recipe.AddTile(null, "BossForge");
                 recipe.SetResult(this, 20);
                 recipe.AddRecipe();
                 };

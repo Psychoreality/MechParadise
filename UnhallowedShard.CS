@@ -20,17 +20,17 @@ namespace TerrariaQuickRecipes-Mod
             {
                 ModRecipe recipe = new ModRecipe (mod);
                 recipe.AddIngredient(ItemID.ClockworkAssaultRifle);
-                recipe.AddTile(null, "Ultimate Loot Reconstructor");
+                recipe.AddTile(null, "BossForge");
                 recipe.SetResult(this, 10);
                 recipe.AddRecipe();
                 recipe = new ModRecipe(mod);
                 recipe.AddIngredient(ItemID.LaserRifle);
-                recipe.AddTile(null, "Ultimate Loot Reconstructor");
+                recipe.AddTile(null, "BossForge");
                 recipe.SetResult(this, 10);
                 recipe.AddRecipe();
                 recipe = new ModRecipe(mod);
                 recipe.AddIngredient(ItemID.BreakerBlade);
-                recipe.AddTile(null, "Ultimate Loot Reconstructor");
+                recipe.AddTile(null, "BossForge");
                 recipe.SetResult(this, 10);
                 };
             };
