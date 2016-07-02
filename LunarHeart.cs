@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 
 namespace TerrariaQuickRecipes-Mod
 {
-    public class LunarHeart
+    public class LunarHeart : ModItem
     {
         public override void SetDefaults()
         {
