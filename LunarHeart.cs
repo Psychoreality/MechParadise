@@ -58,7 +58,7 @@ namespace TerrariaQuickRecipes-Mod
             recipe.SetResult(this, 1);
             recipe.AddRecipe();
             recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Celebration);
+            recipe.AddIngredient(ItemID.3546);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 1);
             recipe.AddRecipe();

@@ -564,7 +564,7 @@ public static class Recipes
             recipe.AddIngredient(ItemID.LuminiteBar, 10);
             recipe.AddIngredient(ItemID.RocketIII, 20);
             recipe.AddTile(null, "BossForge");
-            recipe.SetResult(ItemID.Celebration, 1);
+            recipe.SetResult(ItemID.3546, 1);
             recipe.AddRecipe();
             recipe = new ModRecipe (mod);
             recipe.AddIngredient(null, "LunarHeart", 1);
