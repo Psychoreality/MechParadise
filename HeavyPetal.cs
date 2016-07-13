@@ -1,11 +1,12 @@
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaQuickRecipes-Mod;
+namespace MechParadise
 {
-    public static class HeavyPetal : ModItem
+    public class HeavyPetal : ModItem
     {
-        public override void SetDefaults();
+        public override void SetDefaults()
         {
             item.name = "Heavy Petal";
             item.height = 20;
@@ -13,50 +14,58 @@ namespace TerrariaQuickRecipes-Mod;
             item.maxStack = 99;
             AddTooltip("'Smells like teen perfume'");
             item.value = 2000;
-            item.rarity = 6;
-            };
-        public override void AddRecipes();
+            item.rare = 6;
+        }
+
+        public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Seedler, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.GrenadeLauncher, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.PygmyStaff, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.NettleBurst, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.LeafBlower, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.WaspGun, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.FlowerPow, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
+
             recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.VenusMagnum, 1);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 5);
             recipe.AddRecipe();
-            };
-        };
+        }
     }
+}

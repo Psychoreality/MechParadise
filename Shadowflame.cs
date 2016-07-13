@@ -1,9 +1,10 @@
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaQuickRecipes-Mod
+namespace MechParadise
 {
-    public static class Shadowflame : ModItem
+    public class Shadowflame : ModItem
     {
         public override void SetDefaults()
         {
@@ -13,27 +14,29 @@ namespace TerrariaQuickRecipes-Mod
             item.maxStack = 99;
             AddTooltip("'The secret to the power of the goblins'");
             item.value = 2000;
-            item.rarity = 4;
-            };
-            
-            public override void AddRecipes()
-            {
-                ModRecipe recipe = new ModRecipe (mod);
-                recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameHexDoll, 1);
-                recipe.AddTile(null, "BossForge");
-                recipe.SetResult(this, 20);
-                recipe.AddRecipe();
-                recipe = new ModRecipe (mod);
-                recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameKnife, 1);
-                recipe.AddTile(null, "BossForge");
-                recipe.SetResult(this, 20);
-                recipe.AddRecipe();
-                recipe = new ModRecipe (mod);
-                recipe.AddIngredient(Terraria.ID.ItemID.ShadowflameBow, 1);
-                recipe.AddTile(null, "BossForge");
-                recipe.SetResult(this, 20);
-                recipe.AddRecipe();
-                };
-            };
+            item.rare = 4;
         }
+            
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe (mod);
+            recipe.AddIngredient(ItemID.ShadowFlameHexDoll, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(this, 20);
+            recipe.AddRecipe();
+
+            recipe = new ModRecipe (mod);
+            recipe.AddIngredient(ItemID.ShadowFlameKnife, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(this, 20);
+            recipe.AddRecipe();
+
+            recipe = new ModRecipe (mod);
+            recipe.AddIngredient(ItemID.ShadowFlameBow, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(this, 20);
+            recipe.AddRecipe();
+        }
+    }
+}
         

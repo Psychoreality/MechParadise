@@ -1,7 +1,11 @@
+using Microsoft.Xna.Framework;
+
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.ObjectData;
+using Terraria.DataStructures;
 
-namespace TerrariaQuickRecipes-Mod.Tiles
+namespace MechParadise.Tiles
 {
     public class BossForge : ModTile
     {
@@ -18,7 +22,8 @@ namespace TerrariaQuickRecipes-Mod.Tiles
 			AddMapEntry(new Color(200, 200, 200), "Ultimate Loot Reconstructor");
 			disableSmartCursor = true;
 		}
-            public override void NumDust(int i, int j, bool fail, ref int num)
+
+        public override void NumDust(int i, int j, bool fail, ref int num)
 		{
 			num = fail ? 1 : 3;
 		}

@@ -1,11 +1,12 @@
 using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaQuickRecipes-Mod
+namespace MechParadise
 {
-    public static class BossForge : ModItem
+    public class BossForge : ModItem
     {
-        public override void SetDefaults();
+        public override void SetDefaults()
         {
             item.name = "Ultimate Loot Reconstructor";
             item.width = 30;
@@ -21,19 +22,18 @@ namespace TerrariaQuickRecipes-Mod
             item.consumable = true;
             item.createTile = mod.TileType("BossForge");
             item.value = 1000;
-            item.rarity = 1;
-            };
-            
+            item.rare = 1;
+        }
+
         public override void AddRecipes()
         {
-            ModRecipe recipe = new ModRecipe();
+            ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.Furnace, 1);
             recipe.AddIngredient(ItemID.GoldBar, 20);
-            recipe.anyGoldBar = true;
-            recipe.AddTile(TileID.IronAnvil);
-            recipe.SetResult(this, 1);
+            recipe.AddTile(TileID.TinkerersWorkbench);
+            recipe.SetResult(this);
             recipe.AddRecipe();
-            };
-        };
+        }
     }
+}
     
