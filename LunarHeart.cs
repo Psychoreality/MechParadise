@@ -48,7 +48,7 @@ namespace TerrariaQuickRecipes-Mod
             recipe.SetResult(this, 1);
             recipe.AddRecipe();
             recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.LunarPortalStaff);
+            recipe.AddIngredient(ItemID.MoonlordTurretStaff);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(this, 1);
             recipe.AddRecipe();
