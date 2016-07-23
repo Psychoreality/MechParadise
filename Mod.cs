@@ -741,6 +741,58 @@ namespace MechParadise
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(ItemID.SnowmanCannon, 1);
             recipe.AddRecipe();
+            
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.Bone, 30);
+            recipe.AddIngredient(ItemID.WaterBolt, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BookofSkulls, 1);
+            recipe.AddRecipe();
+            
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.Boulder, 15);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.StaffofEarth, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.ExplosivePowder, 15);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.Stynger, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.HellstoneBar, 5);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.HeatRay, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.SoulofSight, 10);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.EyeoftheGolem, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.Chain, 3);
+            recipe.AddIngredient(ItemID.LihzahrdBrick, 20);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.GolemFist, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.PickaxeAxe, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.Picksaw, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(null, "CoreShard", 5);
+            recipe.AddIngredient(ItemID.SoulofMight, 10);
+            recipe.AddIngredient(ItemID.Ectoplasm, 4);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.PossessedHatchet, 1);
+            recipe.AddRecipe();
             }
     }        
 }

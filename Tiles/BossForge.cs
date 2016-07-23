@@ -16,7 +16,7 @@ namespace MechParadise.Tiles
 			Main.tileNoAttach[Type] = true;
 			Main.tileTable[Type] = false;
 			Main.tileLavaDeath[Type] = false;
-			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
+			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);
 			TileObjectData.newTile.CoordinateHeights = new int[]{ 30 };
 			TileObjectData.addTile(Type);
 			AddMapEntry(new Color(200, 200, 200), "Ultimate Loot Reconstructor");

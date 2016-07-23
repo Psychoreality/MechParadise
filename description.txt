@@ -1,1 +1,2 @@
-A mod for Terraria that adds some Quality of Life changes as well as including the ability to convert boss drops.
+A mod for Terraria that adds some Quality of Life changes, including the ability to convert boss drops and crafting some traps and wiring-based items.
+~ Works with Terraria 1.3.2.1 and tModLoader 1.3.0, shouldn’t break with any later versions unless recipes are overhauled
