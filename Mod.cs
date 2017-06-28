@@ -793,6 +793,31 @@ namespace MechParadise
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(ItemID.PossessedHatchet, 1);
             recipe.AddRecipe();
+            
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeeWax, 5);
+            recipe.AddIngredient(ItemID.MeteoriteBar, 4);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BeeKeeper, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeeWax, 5);
+            recipe.AddIngredient(ItemID.MeteoriteBar, 4);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.TheBeesKnees, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeeWax, 5);
+            recipe.AddIngredient(ItemID.MeteoriteBar, 4);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BeeGun, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeeWax, 5);
+            recipe.AddIngredient(ItemID.MeteoriteBar, 4);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.HornetStaff, 1);
+            recipe.AddRecipe();
             }
     }        
 }
