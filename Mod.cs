@@ -127,12 +127,12 @@ namespace MechParadise
             recipe.AddTile(TileID.HeavyWorkBench);
             recipe.SetResult(ItemID.HopliteStatue, 1);
             recipe.AddRecipe();
-            //recipe = new ModRecipe (mod);
-            //recipe.AddIngredient(ItemID.StoneBlock, 100);
-            //recipe.AddIngredient(ItemID.Wire, 1);
-            //recipe.AddTile(TileID.HeavyWorkBench);
-            //recipe.SetResult(ItemID.VikingStatue, 1);
-            //recipe.AddRecipe(); Can't remember what the Viking statue is called
+            recipe = new ModRecipe (mod);
+            recipe.AddIngredient(ItemID.StoneBlock, 100);
+            recipe.AddIngredient(ItemID.Wire, 1);
+            recipe.AddTile(TileID.HeavyWorkBench);
+            recipe.SetResult(ItemID.UndeadVikingStatue, 1);
+            recipe.AddRecipe();
             recipe = new ModRecipe (mod);
             recipe.AddIngredient(ItemID.StoneBlock, 100);
             recipe.AddIngredient(ItemID.Wire, 1);
@@ -817,6 +817,26 @@ namespace MechParadise
             recipe.AddIngredient(ItemID.MeteoriteBar, 4);
             recipe.AddTile(null, "BossForge");
             recipe.SetResult(ItemID.HornetStaff, 1);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeeKeeper, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BeeWax, 4);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeesKnees, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BeeWax, 4);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.BeeGun, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BeeWax, 4);
+            recipe.AddRecipe();
+            recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.HornetStaff, 1);
+            recipe.AddTile(null, "BossForge");
+            recipe.SetResult(ItemID.BeeWax, 4);
             recipe.AddRecipe();
             }
     }        
