@@ -1,0 +1,11 @@
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/MechParadise.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/MechParadise.pdb
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Microsoft.Xna.Framework.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Microsoft.Xna.Framework.Game.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Microsoft.Xna.Framework.Graphics.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Microsoft.Xna.Framework.Xact.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/tModLoaderWindows.exe
+/Users/jacobhead11/Desktop/MechParadise/obj/x86/Debug/Windows.csprojResolveAssemblyReference.cache
+/Users/jacobhead11/Desktop/MechParadise/obj/x86/Debug/Windows.csproj.CoreCompileInputs.cache
+/Users/jacobhead11/Desktop/MechParadise/obj/x86/Debug/MechParadise.dll
+/Users/jacobhead11/Desktop/MechParadise/obj/x86/Debug/MechParadise.pdb
