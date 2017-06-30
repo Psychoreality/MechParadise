@@ -6,13 +6,16 @@ namespace MechParadise
 {
     public class TornWrap : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Torn Gift Wrapping");
+            Tooltip.SetDefault("'Opening these presents may void the warranty'");
+            }
         public override void SetDefaults()
         {
-            item.name = "Torn Gift Wrapping";
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            AddTooltip("'Opening these presents may void the warranty'");
             item.value = 4000;
             item.rare = 7;
         }

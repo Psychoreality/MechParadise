@@ -6,13 +6,17 @@ namespace MechParadise
 {
     public class MartianCore : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Martian Energy Core");
+            Tooltip.SetDefault("'This core may have the power to generate lasers'");
+            }
+            
         public override void SetDefaults()
         {
-            item.name = "Martian Energy Core";
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            AddTooltip("'This core may have the power to generate lasers'");
             item.value = 5000;
             item.rare = 7;
         }

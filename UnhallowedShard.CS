@@ -8,11 +8,14 @@ namespace MechParadise
     {
         public override void SetDefaults()
         {
-            item.name = "Unhallowed Shard";
+            public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Unhallowed Shard");
+            Tooltip.SetDefault("'The holding place of ancient spirits'");
+            }
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            AddTooltip("'The holding place of ancient spirits'");
             item.value = 2000;
             item.rare = 4;
         }

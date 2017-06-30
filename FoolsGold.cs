@@ -6,13 +6,18 @@ namespace MechParadise
 {
     public class FoolsGold : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Fool's Gold");
+            Tooltip.SetDefault("'A warped plate of metal stolen by pirates'");
+            }
+            
         public override void SetDefaults()
         {
             item.name = "Fool's Gold";
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            AddTooltip("'A warped plate of metal stolen by pirates'");
             item.value = 2000;
             item.rare = 4;
         }

@@ -6,14 +6,18 @@ namespace MechParadise
 {
     public class BossForge : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Ultimate Loot Reconstructor");
+            Tooltip.SetDefault("'The power to mold the loot of a boss monster is in your hands'");
+            Tooltip.SetDefault("Deconstruct boss loot and invasion drops here");
+            }
+            
         public override void SetDefaults()
         {
-            item.name = "Ultimate Loot Reconstructor";
             item.width = 30;
             item.height = 26;
             item.maxStack = 999;
-            AddTooltip("'The power to mold the loot of a boss monster is in your hands'");
-            AddTooltip("Deconstruct boss loot and invasion drops here");
             item.useTurn = true;
             item.autoReuse = true;
             item.useAnimation = 15;

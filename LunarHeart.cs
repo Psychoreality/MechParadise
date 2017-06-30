@@ -6,14 +6,18 @@ namespace MechParadise
 {
     public class LunarHeart : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Lunar Core");
+            Tooltip.SetDefault("'The bringer of apocalypse's final prize'");
+            }
+            
         public override void SetDefaults()
         {
-            item.name = "Lunar Core";
             item.height = 20;
             item.width = 20;
             item.maxStack = 99;
             item.rare = 9;
-            AddTooltip("'The bringer of apocalypse's ultimate prize'");
             item.value = 30000;
         }
 

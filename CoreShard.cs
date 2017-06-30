@@ -6,13 +6,17 @@ namespace MechParadise
 {
     public class CoreShard : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Lihzahrd Core Shard");
+            Tooltip.SetDefault("'The magic inside heats it up'");
+            }
+            
         public override void SetDefaults()
         {
-            item.name = "Lihzahrd Core Shard";
             item.height = 20;
             item.width = 20;
             item.maxStack = 99;
-            AddTooltip("'The magic inside it heats it up'");
             item.value = 5000;
             item.rare = 6;
             }

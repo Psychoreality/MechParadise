@@ -6,13 +6,16 @@ namespace MechParadise
 {
     public class Shadowflame : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Shadowflame");
+            Tooltip.SetDefault("'The secret power of the goblins'");
+            }
         public override void SetDefaults()
         {
-            item.name = "Shadowflame";
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            AddTooltip("'The secret to the power of the goblins'");
             item.value = 2000;
             item.rare = 4;
         }

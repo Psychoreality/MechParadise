@@ -6,13 +6,16 @@ namespace MechParadise
 {
     public class TruffleScale : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Fishron Scale");
+            Tooltip.SetDefault("'This fish scale stinks of truffles'");
+            }
         public override void SetDefaults()
         {
-            item.name = "Fishron Scale";
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;
-            AddTooltip("'This fish scale stinks of truffles'");
             item.value = 5000;
             item.rare = 7;
         }

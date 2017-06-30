@@ -6,13 +6,17 @@ namespace MechParadise
 {
     public class HeavyPetal : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+            DisplayName.SetDefault("Heavy Petal");
+            Tooltip.SetDefault("'Whatever this belonged to had a lot of nothing to say'");
+            }
+            
         public override void SetDefaults()
         {
-            item.name = "Heavy Petal";
             item.height = 20;
             item.width = 20;
             item.maxStack = 99;
-            AddTooltip("'Smells like teen perfume'");
             item.value = 2000;
             item.rare = 6;
         }
