@@ -9,8 +9,8 @@ namespace MechParadise
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Ultimate Loot Reconstructor");
-            Tooltip.SetDefault("'The power to mold the loot of a boss monster is in your hands'");
-            Tooltip.SetDefault("Deconstruct boss loot and invasion drops here");
+            Tooltip.SetDefault("'The power to mold the loot of a boss monster is in your hands'/nDeconstruct boss loot and invasion drops here");
+            Tooltip.SetDefault("");
             }
             
         public override void SetDefaults()
