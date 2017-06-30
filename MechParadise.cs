@@ -12,7 +12,7 @@ using Terraria.Graphics.Shaders;
 
 namespace MechParadise
 {
-    public class MechParadise : Mod
+    class MechParadise : Mod
     {
         public MechParadise()
         {
