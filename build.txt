@@ -1,6 +1,6 @@
 author = Saikoureality
-version = 1.1.1
-displayName = Mechanic’s Paradise/Drop Swapper
+version = 1.1.2
+displayName = Drop Swappers +
 homepage = http://forums.terraria.org/index.php?threads/quick-recipes-mod-looking-for-testers.44997/
 hideCode = true
 noCompile = true

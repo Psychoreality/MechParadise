@@ -2,10 +2,12 @@
 /Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.csproj.CoreCompileInputs.cache
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/MechParadise.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/MechParadise.pdb
+/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.dll
+/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.pdb
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/Ionic.Zip.Reduced.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/MP3Sharp.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.Game.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.Graphics.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.Xact.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Release/tModLoaderWindows.exe
-/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.dll
-/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.pdb

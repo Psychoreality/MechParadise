@@ -6,13 +6,14 @@ namespace MechParadise
 {
     public class UnhallowedShard : ModItem
     {
-        public override void SetDefaults()
-        {
-            public override void SetStaticDefaults()
+        public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Unhallowed Shard");
             Tooltip.SetDefault("'The holding place of ancient spirits'");
             }
+            
+        public override void SetDefaults()
+        {
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;

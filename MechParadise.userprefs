@@ -1,10 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MechParadise.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnhallowedShard.cs">
     <Files>
-      <File FileName="MechParadise.cs" Line="837" Column="1" />
+      <File FileName="MechParadise.cs" Line="25" Column="5" />
+      <File FileName="Tiles/BossForge.cs" Line="20" Column="33" />
+      <File FileName="BossForge.cs" Line="1" Column="1" />
+      <File FileName="MechParadise.csproj" Line="46" Column="15" />
+      <File FileName="UnhallowedShard.cs" Line="14" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
