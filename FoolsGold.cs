@@ -14,7 +14,6 @@ namespace MechParadise
             
         public override void SetDefaults()
         {
-            item.name = "Fool's Gold";
             item.width = 20;
             item.height = 20;
             item.maxStack = 99;

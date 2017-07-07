@@ -19,7 +19,7 @@ namespace MechParadise.Tiles
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);
 			TileObjectData.newTile.CoordinateHeights = new int[]{ 30 };
 			TileObjectData.addTile(Type);
-			AddMapEntry(new Color(200, 200, 200), "Ultimate Loot Reconstructor");
+            AddMapEntry(new Color(200, 200, 200));
 			disableSmartCursor = true;
 		}
 

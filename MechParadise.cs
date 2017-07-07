@@ -21,10 +21,7 @@ namespace MechParadise
                 Autoload = true
             };
         }
-    }
 
-    public class Recipes
-    {
         public void AddRecipes(Mod mod)
         {
             ModRecipe recipe;
@@ -348,14 +345,8 @@ namespace MechParadise
             recipe.AddTile(TileID.MythrilAnvil);
             recipe.SetResult(ItemID.PutridScent, 1);
             recipe.AddRecipe();            
-        }            
-    }
-    
-    public class BossForgeRecipes
-    {
-        public void AddRecipes(Mod mod)
-        {
-            ModRecipe recipe = new ModRecipe(mod);
+          
+            recipe = new ModRecipe(mod);
             recipe.AddIngredient(null, "Shadowflame", 30);
             recipe.AddIngredient(ItemID.Silk, 10);
             recipe.AddTile(null, "BossForge");
@@ -839,6 +830,6 @@ namespace MechParadise
             recipe.SetResult(ItemID.BeeWax, 4);
             recipe.AddRecipe();
             }
-    }        
-}
+    }
+   }
 

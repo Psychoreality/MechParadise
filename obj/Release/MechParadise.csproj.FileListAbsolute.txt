@@ -1,0 +1,11 @@
+/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.csprojResolveAssemblyReference.cache
+/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.csproj.CoreCompileInputs.cache
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/MechParadise.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/MechParadise.pdb
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.Game.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.Graphics.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/Microsoft.Xna.Framework.Xact.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Release/tModLoaderWindows.exe
+/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.dll
+/Users/jacobhead11/Desktop/MechParadise/obj/Release/MechParadise.pdb
