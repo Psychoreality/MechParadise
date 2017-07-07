@@ -57,7 +57,25 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
     </Reference>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+<ItemGroup>
+    <Compile Include="BossForge.cs" />
+    <Compile Include="CoreShard.cs" />
+    <Compile Include="FoolsGold.cs" />
+    <Compile Include="HeavyPetal.cs" />
+    <Compile Include="LunarHeart.cs" />
+    <Compile Include="MartianCore.cs" />
+    <Compile Include="MechParadise.cs" />
+    <Compile Include="Tiles\BossForge.cs" />
+    <Compile Include="Shadowflame.cs" />
+    <Compile Include="TornWrap.cs" />
+    <Compile Include="TruffleScale.cs" />
+    <Compile Include="UnhallowedShard.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+  </ItemGroup>  
+<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
   </PropertyGroup>
 </Project>
