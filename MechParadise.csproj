@@ -37,20 +37,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Microsoft.Xna.Framework">
-      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.dll</HintPath>
+    <Reference Include="FNA">
+      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\FNA.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Xna.Framework.Game">
-      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.Game.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Xna.Framework.Graphics">
-      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.Graphics.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Xna.Framework.Xact">
-      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\Microsoft.Xna.Framework.Xact.dll</HintPath>
-    </Reference>
-    <Reference Include="tModLoaderWindows">
-      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\ModCompile\tModLoaderWindows.exe</HintPath>
+    <Reference Include="Terraria">
+      <HintPath>..\..\Library\Application Support\Steam\steamapps\common\Terraria\Terraria.app\Contents\MacOS\Terraria.exe</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

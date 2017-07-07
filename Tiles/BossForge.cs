@@ -17,7 +17,6 @@ namespace MechParadise.Tiles
 			Main.tileTable[Type] = false;
 			Main.tileLavaDeath[Type] = false;
 			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);
-			TileObjectData.newTile.CoordinateHeights = new int[]{ 30 };
 			TileObjectData.addTile(Type);
             AddMapEntry(new Color(200, 200, 200));
 			disableSmartCursor = true;
@@ -25,7 +24,7 @@ namespace MechParadise.Tiles
 
         public override void NumDust(int i, int j, bool fail, ref int num)
 		{
-			num = fail ? 1 : 3;
+            num = 1;
 		}
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)

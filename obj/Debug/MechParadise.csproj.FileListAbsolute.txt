@@ -2,11 +2,13 @@
 /Users/jacobhead11/Desktop/MechParadise/obj/Debug/MechParadise.csproj.CoreCompileInputs.cache
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/MechParadise.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/MechParadise.pdb
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Ionic.Zip.Reduced.dll
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/MP3Sharp.dll
+/Users/jacobhead11/Desktop/MechParadise/obj/Debug/MechParadise.dll
+/Users/jacobhead11/Desktop/MechParadise/obj/Debug/MechParadise.pdb
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/FNA.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/Terraria.exe
-/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Ionic.Zip.Reduced.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/Mono.Cecil.dll
-/Users/jacobhead11/Desktop/MechParadise/bin/Debug/MP3Sharp.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/WindowsBase.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/System.Drawing.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/System.Windows.Forms.dll
@@ -17,7 +19,5 @@
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/System.Security.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/System.Numerics.dll
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/Mono.Security.dll
-/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Terraria.exe.config
 /Users/jacobhead11/Desktop/MechParadise/bin/Debug/FNA.dll.config
-/Users/jacobhead11/Desktop/MechParadise/obj/Debug/MechParadise.dll
-/Users/jacobhead11/Desktop/MechParadise/obj/Debug/MechParadise.pdb
+/Users/jacobhead11/Desktop/MechParadise/bin/Debug/Terraria.exe.config
